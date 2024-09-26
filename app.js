@@ -1,6 +1,5 @@
 const pokemon = require('./data.js')
 
-
 const game = {
     party: [],
     gyms: [
@@ -18,6 +17,8 @@ const game = {
       { name: "pokeball", quantity: 8 },
       { name: "rare candy", quantity: 99 },
     ],
-  }
-
-  console.dir(pokemon, { maxArrayLength: null })
+    difficulty: "Med", 
+  };
+  
+  console.log(game);
+  
